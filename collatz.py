@@ -1,6 +1,6 @@
 
 def collatz(number):
-    int(number)
+
     if number % 2 == 0:
         print(number // 2)
         return number // 2
@@ -8,5 +8,4 @@ def collatz(number):
         print(3 * number + 1)
         return 3 * number + 1
 number = input()
-int(number)
-collatz(number)
+collatz(int(number))
